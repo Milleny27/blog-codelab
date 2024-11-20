@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    --dark-10: #121214;
+    --dark-20: #17171A;
+    --dark-30: #202024;
+    --dark-40: #252529;
+    --dark-50: #AFABB6;
+    --dark-60: #FFFFFF;
+
+    --brand-color: #E07B67;
+
+    --inter-family:"Inter", sans-serif;
+    --space-grotesk-family: "Space Grotesk", sans-serif;
+}

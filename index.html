@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/container.css">
+    <link rel="stylesheet" href="/assets/css/card.css">
+    <link rel="stylesheet" href="/assets/css/modal.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__title">
+            <span class="header__title__brand-color">Code</span><span class="header__title__dark-60">Lab</span>
+        </h1>
+        <div class="header__container">
+            <input class="header__input_search" type="search" name="search" id="search" placeholder="Pesquisar no blog">
+            <button id="btn" class="header__container__btn">Cadastrar</button>
+        </div>
+    </header>
+    <main class="container">
+        <div class="container__cards">
+            <div class="container__card">
+                <div class="container__card__header">
+                    <span class="container__card__header__data">12 de jul, 2024</span>
+                </div>
+                <h2 class="container__card__title">GitHub agora permite fazer login sem precisar de senha</h2>
+                <p class="container__card__content">O GitHub anunciou nesta quarta-feira (12) o acesso a partir das passkeys, método de autenticação sem senhas. A novidade está disponível em uma versão beta pública e pode substituir a autenticação em dois fatores.</p>
+            </div>
+        </div>
+    </main>
+    <div class="modal">
+        <div class="modal__content">
+            <h2 class="modal__content__title">Adicionar Post</h2>
+            <form class="modal__content__form" action="#" method="post">
+                <input class="modal__content__form__title" type="text" name="title" id="title" placeholder="Título do Post">
+                <textarea class="modal__content__form__content" name="content" id="content" placeholder="Conteúdo do Post"></textarea>
+                <button id="form__btn" class="modal__content__form__btn">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    <script src="/assets/js/modal.js"></script>
+</body>
+
+</html>

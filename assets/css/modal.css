@@ -1,0 +1,79 @@
+@import "_variables.css";
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.modal__content {
+    background: var(--dark-20);
+    border: 2px solid var(--dark-40);
+    margin: 10% auto;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal__content__title {
+    color: var(--dark-60);
+    font-family: var(--space-grotesk-family);
+}
+
+.modal__content__form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    border-top: 2px solid var(--dark-40);
+    margin: 0.5rem 0;
+    padding: 1rem 0;
+    font-family: var(--inter-family);
+}
+
+.modal__content__form__title {
+    width: 80%;
+    padding: 1rem;
+    background: var(--dark-30);
+    border: 2px solid var(--dark-40);
+    border-radius: 0.5rem;
+    color: var(--dark-60);
+    font-family: var(--inter-family);
+}
+
+.modal__content__form__content {
+    width: 80%;
+    height: 4rem;
+    padding: 1rem;
+    background: var(--dark-30);
+    border: 2px solid var(--dark-40);
+    border-radius: 0.5rem;
+    color: var(--dark-60);
+}
+
+.modal__content__form__btn {
+    padding: 1rem 1.5rem;
+    background: var(--dark-30);
+    border: 2px solid var(--dark-40);
+    border-radius: 0.5rem;
+    color: var(--brand-color);
+
+    transition: all 0.3s ease-in-out;
+}
+
+.modal__content__form__btn:hover {
+    border-color: var(--brand-color);
+    cursor: pointer;
+}
